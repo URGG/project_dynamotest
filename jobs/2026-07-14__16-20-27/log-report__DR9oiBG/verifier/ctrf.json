@@ -1,0 +1,9 @@
+{
+  "results": {
+    "tool": {"name": "harbor-verifier"},
+    "summary": {"tests": 3, "passed": 0, "failed": 3, "pending": 0, "skipped": 0, "other": 0},
+    "tests": [
+      {"name": "Log parsing validation", "status": "failed", "message": "Calculated metrics do not match expected log criteria."}
+    ]
+  }
+}

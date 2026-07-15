@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p /logs/verifier
 
-pytest tests/test_outputs.py --tb=short
+pytest "$(dirname "$0")/test_outputs.py" --tb=short
 EXIT_CODE=$?
 
 if [ $EXIT_CODE -eq 0 ]; then

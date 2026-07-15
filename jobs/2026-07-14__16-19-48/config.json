@@ -1,0 +1,13 @@
+{
+    "job_name": "2026-07-14__16-19-48",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "log-report"
+        }
+    ]
+}

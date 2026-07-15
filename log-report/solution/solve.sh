@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /app/solution/solve.py
+python3 "$(dirname "$0")/solve.py"
